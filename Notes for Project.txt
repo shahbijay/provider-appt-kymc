@@ -1,0 +1,14 @@
+1. First Import the Data File.
+2. Clean the Data
+	- convert date and time to numeric if possible.
+	- Find out survey date. If Saturday of Sunday, not valid.
+	- Find out appointment days are on weekend? If yes, Invalid. (Note: You may have to find the numeric value of day first.
+									    If 1 then Sunday, 2 Monday.)
+	- Maybe create a flag to show if the survey day or appointment on weekend. (If Day = 'Satuday' or 'Sunday' output to new table.)
+	- May also check if there were any holiday crosses between survey date and appointment time. If yes, reduce that from business day.
+3. Analyze:
+	- Days between survey and urgent appointment. If over 48 hours: Not compliant
+	- Days between survey and non-urgent appointment. If over 10 business days: Not complaint.
+4. Display analyzed data in charts.
+	- Percent compliant and non-compliant
+	- By provider type/ by county
