@@ -1,0 +1,29 @@
+1. First Import the Data File.
+
+2. Clean the Data
+	- convert date and time to numeric, if possible.
+	- Find out survey day. If Saturday of Sunday, not valid.
+	- Find out if appointment days are on weekend? If yes, Invalid. (Note: You may have to find the numeric value for the days first. If 1 then Sunday, 2 Monday, 3 Tuesday, etc.) Tip: Use 'Array' for holidays and 'IF ELSE' statement to calculate weekdays, excluding weekends.
+	- Create a new column to show the survey days or appointment days. (If Day = 'Saturday' or 'Sunday' output to new table.)
+	- May also check if there were any holiday crosses between survey date and appointment time. If yes, reduce that from business day. Do this only for urgent appointments since urgent appointments are within 48 hours.
+
+3. Analyze:
+	- Days between survey and urgent appointment. If over 48 hours: Not compliant
+	- Days between survey and non-urgent appointment. If over 30 calendar days: Not complaint.
+	- Make sure days are not negative value.
+
+4. Display analyzed data in charts.
+	- Percent compliant and non-compliant
+	- By provider type/ by county
+
+
+# Provider Appointment Availability
+#ABOUT
+
+This project's scope is to create a dashboard with available survey data for healthcare providers' urgent and non-urgent appointment availability. Assuming we have data for providers that are contracted with Kentucky Medicaid.
+
+Providers contracted with Kentucky Medicaid are expected to provide access to care standards and processes for ongoing monitoring of access to health care by following certain medical appointments standard, such as urgent appointments within 48 hours and non-urgent appointments within 30 calendar days. The dataset includes urgent and non-urgent appointments provided by contracted primary care providers (PCP - adult and pediatrics) and OB/GYN.[1]
+
+
+Source:
+[1] https://www.molinahealthcare.com/providers/ky/medicaid/resource/access_avail.aspx
