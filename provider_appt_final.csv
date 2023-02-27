@@ -1,4 +1,4 @@
-﻿NPI,First Name,Last Name,License Number,Name of Network,Address,City,County,State,Zip Code,Phone Number,Fax Number,Specialty,Date of Survey,Survey Time,Next Urgent Appointment Date,Next Urgent Appointment Time,Next Non-Urgent Appointment Date,Next Non-Urgent Appointment Time
+﻿NPI,First_Name,Last_Name,License_Number,Network,Address,City,County,State,Zip_Code ,Phone_Number,Fax_Number,Specialty ,Date_Survey,Time_Survey,Urgent_Appointment_Date ,Urgent_Appointment_Time,Non_Urgent_Appointment_Date, Non_Urgent_Appointment_Time
 60-4725350,Christine,White,846-09-0703,KY Medicaid,820 Barker Rapids Suite 205,Owensboro,Daviess,Kentucky,42301,2708870100,2708831000,Internal Medicine,3/3/22,8:00 AM,3/7/22,1:00 PM,4/18/22,8:45 AM
 65-3410661,Erika,Harvey,396-15-9512,KY Medicaid,1697 Hudson Fords Suite 643,Louisville,Jefferson,Kentucky,40202,2707264011,2707242300,General Practice,2/18/22,2:30 PM,3/4/22,1:30 PM,4/4/22,7:00 AM
 34-7152725,Sheila,Lopez,729-98-8374,KY Medicaid,83106 Delgado Land,Lexington,Fayette,Kentucky,40509,2702421100,2702481212,Pediatrics,2/18/22,10:30 AM,3/16/22,7:00 AM,4/13/22,1:00 PM
