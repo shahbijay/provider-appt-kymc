@@ -37,8 +37,7 @@ The survey file contains provider name, address, NPI, specialty, survey date/tim
 
 If you have a Google account, you can run this code without downloading any programming languages, libraries or tools.
 
-- [Click here](https://colab.research.google.com/drive/1uCSCyeXRORfSInxh6h_mSAu-DKkG1BUb#scrollTo=61f199a3) to gain viewer access to the Colab Notebook.
-- This should open in new tab.
+- [Click here](https://colab.research.google.com/drive/1uCSCyeXRORfSInxh6h_mSAu-DKkG1BUb#scrollTo=61f199a3) to gain viewer access to the Colab Notebook. Right click and click "Open Link in New Tab" should open in new tab.
 - Once the program is open.
     - Click Runtime tab.
     - Click Run All.
