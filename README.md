@@ -37,7 +37,24 @@ The survey file contains provider name, address, NPI, specialty, survey date/tim
 
 If you have a Google account, you can run this code without downloading any programming languages, libraries or tools.
 
-- [Click here](https://colab.research.google.com/drive/1uCSCyeXRORfSInxh6h_mSAu-DKkG1BUb?usp=sharing) to gain viewer access to the Colab Notebook. Right click and click "Open Link in New Tab" should open in new tab.
+- [Click here](https://colab.research.google.com/drive/1uCSCyeXRORfSInxh6h_mSAu-DKkG1BUb?usp=sharing) (Right click to open in new tab) to gain viewer access to the Colab Notebook.
+- You may be asked to sign in to your Google account, if you haven't done so already.
 - Once the program is open.
     - Click Runtime tab.
     - Click Run All.
+    
+## Option 2 - Cloning the repo.
+
+Running the Program in Jupyter Notebook
+- Clone the repository.
+- Save the folder.
+- Open jupyter notebook from command line or start menu.
+- Navigate to the saved location of the repo.
+- Open **provider-appt-dboard.ipynb**
+- Click **Cell** tab and then **Run All**.
+
+Running the Program in Python
+- Clone the repository
+- Save the folder.
+- Open the saved repository in your IDE or terminal.
+- Run the *.py file. This step is not ready yet.
