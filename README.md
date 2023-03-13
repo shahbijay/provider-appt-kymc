@@ -3,9 +3,9 @@ Project analyzing data for provider appointment availability for providers contr
 
 # ABOUT
 
-The scope of this project is to create a dashboard with available survey data for healthcare providers' urgent and non-urgent appointment availability. Assuming we have data for providers that are contracted with Kentucky Medicaid.
-
 Providers contracted with Kentucky Medicaid are expected to provide access to care standards and processes for ongoing monitoring of access to health care by following certain medical appointments standard, such as urgent appointments within 48 hours and non-urgent appointments within 30 calendar days. The dataset includes urgent and non-urgent appointments provided by contracted primary care providers (PCP - adult and pediatrics) and OB/GYN.[1]
+
+The scope of this project is to identify providers that are compliant or not compliant based on their appointment availability and create a dashboard with available survey data. Assuming we have data for providers' urgent and non-urgent appointment availability that are contracted with Kentucky Medicaid.
 
 Source:
 [1] https://www.molinahealthcare.com/providers/ky/medicaid/resource/access_avail.aspx
