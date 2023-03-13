@@ -53,6 +53,10 @@ Running the Program in Jupyter Notebook
 - Open **provider-appt-dboard.ipynb**
 - Click **Cell** tab and then **Run All**.
 
+**Note:**
+- This repo runs on utilizing numbers of libraries that are included with Anaconda. If you do not have Anaconda already installed on your PC, please do so visiting this [link](https://docs.anaconda.com/anaconda/install/index.html) for documentaion on how to install Anaconda.
+- This repo runs on latest release of Anaconda. Follow this [instruction](https://docs.anaconda.com/anaconda/install/update-version/) to update Anaconda to latest version.
+
 Running the Program in Python
 - Clone the repository
 - Save the folder.
