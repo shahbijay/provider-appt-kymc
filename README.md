@@ -61,4 +61,4 @@ Running the Program in Python
 - Clone the repository
 - Save the folder.
 - Open the saved repository in your IDE or terminal.
-- Run the *.py file. This step is not ready yet.
+- Run the *.py file. *This step is not ready yet.*
