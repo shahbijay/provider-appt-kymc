@@ -45,6 +45,11 @@ If you have a Google account, you can run this code without downloading any prog
     
 ## Option 2 - Cloning the repo.
 
+**Note:**
+- This repo runs on utilizing numbers of libraries that are included with Anaconda. If you do not have Anaconda already installed on your PC, please do so visiting this [link](https://docs.anaconda.com/anaconda/install/index.html) for documentaion on how to install Anaconda.
+- This repo runs on latest release of Anaconda. Follow this [instruction](https://docs.anaconda.com/anaconda/install/update-version/) to update Anaconda to latest version.
+- If you do not want to install **Anaconda** on your machine and wish to run this project locally on your machine or on a virtual environment, please install the requirements.txt by running this command: **pip install -r requirements.txt**. This will install necessary libraries to run this program.
+
 Running the Program in Jupyter Notebook
 - Clone the repository.
 - Save the folder.
@@ -52,10 +57,6 @@ Running the Program in Jupyter Notebook
 - Navigate to the saved location of the repo.
 - Open **provider-appt-dboard.ipynb**
 - Click **Cell** tab and then **Run All**.
-
-**Note:**
-- This repo runs on utilizing numbers of libraries that are included with Anaconda. If you do not have Anaconda already installed on your PC, please do so visiting this [link](https://docs.anaconda.com/anaconda/install/index.html) for documentaion on how to install Anaconda.
-- This repo runs on latest release of Anaconda. Follow this [instruction](https://docs.anaconda.com/anaconda/install/update-version/) to update Anaconda to latest version.
 
 Running the Program in Python
 - Clone the repository
