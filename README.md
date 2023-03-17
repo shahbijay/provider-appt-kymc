@@ -14,8 +14,8 @@ Source:
 
 The data for this survey was generated using Python and does not contain any real data related to actual providers, including their name, NPI, etc.
 
-Data file name: data_provider_appt.csv
-Program file name: script_provider-appt.ipynb
+- Data file name: data_provider_appt.csv
+- Program file name: script_provider-appt.ipynb
 
 The survey file contains provider name, address, NPI, specialty, survey date/time, urgent appointment date/time, and non-urgent appointment date/time.
 The program file analyzes data in following order:
