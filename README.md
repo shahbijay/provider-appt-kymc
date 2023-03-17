@@ -14,20 +14,18 @@ Source:
 
 The data for this survey was generated using Python and does not contain any real data related to actual providers, including their name, NPI, etc.
 
-Data file name: provider_appt_final.csv
+Data file name: data_provider_appt.csv
+Program file name: script_provider-appt.ipynb
 
 The survey file contains provider name, address, NPI, specialty, survey date/time, urgent appointment date/time, and non-urgent appointment date/time.
-
-1. First Import the Data File.
-
-2. Clean the Data
-
-3. Analyze:
+The program file analyzes data in following order:
+1. First, Import the data in to the program.
+2. Clean the Data using Pandas.
+3. Analyze the data:
 	- Days between survey and urgent appointment. If over 48 hours: Not compliant
 	- Days between survey and non-urgent appointment. If over 30 calendar days: Not complaint.
 	- Make sure days are not negative value.
-
-4. Display analyzed data in charts.
+4. Display analyzed data into the charts.
 	- Percent compliant and non-compliant
 	- By provider type/ by county
 
