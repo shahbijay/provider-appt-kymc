@@ -5,7 +5,7 @@ This project analyzes urgent and non-urgent appointment availability for healthc
 
 Providers contracted with Kentucky Medicaid are expected to provide access to care standards and processes for ongoing monitoring of access to health care by following certain medical appointments standard, such as urgent appointments within 48 hours and non-urgent appointments within 30 calendar days. The dataset includes urgent and non-urgent appointments provided by contracted primary care providers (PCP - adult and pediatrics) and OB/GYN.[1]
 
-The scope of this project is to identify providers that are compliant or not compliant based on their appointment availability and create a dashboard with available survey data. Assuming we have data for providers' urgent and non-urgent appointment availability that are contracted with Kentucky Medicaid.
+The scope of this project is to identify providers that are compliant or not compliant based on their appointment availability and create a dashboard with available survey data. The data file contains the providers' urgent and non-urgent appointment availability that are contracted with Kentucky Medicaid. The data was collected by the vendor through telephone survey and provided for the analysis.
 
 Source:
 [1] https://www.molinahealthcare.com/providers/ky/medicaid/resource/access_avail.aspx
@@ -24,18 +24,19 @@ The program file analyzes data in following order:
 3. Analyze the data:
 	- Days between survey and urgent appointment. If over 48 hours: Not compliant
 	- Days between survey and non-urgent appointment. If over 30 calendar days: Not complaint.
-	- Make sure days are not negative value.
+	- Make sure days are not in negative value.
+	- Check if survey was completed on weekdays.
 4. Display analyzed data into the charts.
 	- Percent compliant and non-compliant
 	- By provider type/ by county
 
 # Project Folder Contents:
-	- About the project: README.md
-	- License Document: LICENSE
-	- Program File: script_provider-appt.ipynb
-	- Data File: data_provider_appt.csv
-	- Required libraries to run the program: requirements.txt
-	- Data file for optional graph: provider_appt-final.csv
+	- **README.md**: About the project
+	- **LICENSE**: License Document
+	- **script_provider-appt.ipynb**: Program File
+	- **data_provider_appt.csv**: Data File
+	- **requirements.txt**: Required libraries to run the program
+	- **provider_appt-final.csv**: Data file for optional graph
 
 # How to run this program?
 
@@ -47,7 +48,7 @@ If you have a Google account, you can run this code without downloading any prog
 - You may be asked to sign in to your Google account, if you haven't done so already.
 - Once the program is open.
     - Click Runtime tab.
-    - Click Run All.
+    - Click Run All. (Program may auto-run when opened with Google Colab.)
     
 ## Option 2 - Cloning the repo.
 
@@ -69,3 +70,5 @@ If you have a Google account, you can run this code without downloading any prog
 - Save the folder.
 - Open the saved repository in your IDE or terminal.
 - Run the **script_provider-appt.ipynb** file.
+- Run **requirements.txt** to install necessary libraries to run this program.
+- Run program step by step.
