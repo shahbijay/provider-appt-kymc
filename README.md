@@ -5,7 +5,7 @@ This project analyzes urgent and non-urgent appointment availability for healthc
 
 Providers contracted with Kentucky Medicaid are expected to provide access to care standards and processes for ongoing monitoring of access to health care by following certain medical appointments standard, such as urgent appointments within 48 hours and non-urgent appointments within 30 calendar days. The dataset includes urgent and non-urgent appointments provided by contracted primary care providers (PCP - adult and pediatrics) and OB/GYN.[1]
 
-The scope of this project is to identify providers that are compliant or not compliant based on their appointment availability and create a dashboard with available survey data. The data file contains the providers' urgent and non-urgent appointment availability that are contracted with Kentucky Medicaid. The data was collected by the vendor through telephone survey and provided for the analysis.
+The scope of this project is to identify providers that are compliant or not compliant based on their appointment availability and present analyzed data in graphs. The data file contains the providers' urgent and non-urgent appointment availability that are contracted with Kentucky Medicaid. The data was collected by the vendor through telephone survey and provided for the analysis.
 
 Source:
 [1] https://www.molinahealthcare.com/providers/ky/medicaid/resource/access_avail.aspx
@@ -55,7 +55,6 @@ If you have a Google account, you can run this code without downloading any prog
 **Note:**
 - This repo runs on utilizing numbers of libraries that are included with Anaconda. If you do not have Anaconda already installed on your PC, please do so visiting this [link](https://docs.anaconda.com/anaconda/install/index.html) for documentaion on how to install Anaconda.
 - This repo runs on latest release of Anaconda. Follow this [instruction](https://docs.anaconda.com/anaconda/install/update-version/) to update Anaconda to latest version.
-- If you do not wish to install **Anaconda** on your machine and want to run this project locally on your machine or on a virtual environment, please install the requirements.txt by running this command: **pip install -r requirements.txt** in the project folder location or the virtaul environment. This will install necessary libraries to run this program.
 
 **Running the Program in Jupyter Notebook**
 - Clone the repository.
@@ -64,6 +63,8 @@ If you have a Google account, you can run this code without downloading any prog
 - Navigate to the saved location of the repo.
 - Open **script_provider-appt.ipynb**
 - Click **Cell** tab and then **Run All**.
+
+- If you do not wish to install **Anaconda** on your machine and want to run this project locally on your machine or on a virtual environment, please install the requirements.txt by running this command: **pip install -r requirements.txt** in the project folder location or the virtaul environment. This will install necessary libraries to run this program.
 
 **Running the Program in Python**
 - Clone the repository
