@@ -64,7 +64,7 @@ If you have a Google account, you can run this code without downloading any prog
 - Open **script_provider-appt.ipynb**
 - Click **Cell** tab and then **Run All**.
 
-- If you do not wish to install **Anaconda** on your machine and want to run this project locally on your machine or on a virtual environment, please install the requirements.txt by running this command: **pip install -r requirements.txt** in the project folder location or the virtaul environment. This will install necessary libraries to run this program.
+If you do not wish to install **Anaconda** on your machine and want to run this project locally on your machine or on a virtual environment, please install the requirements.txt by running this command: **pip install -r requirements.txt** in the project folder location or the virtaul environment. This will install necessary libraries to run this program.
 
 **Running the Program in Python**
 - Clone the repository
