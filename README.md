@@ -1,11 +1,11 @@
 # Provider Appointment Availability
-This project analyzes urgent and non-urgent appointment availability for healthcare providers that are contracted with Kentucky Medicaid.
+This project analyzes urgent and non-urgent appointment availability for healthcare providers that are contracted with a health plan (Insurance Company).
 
 # ABOUT
 
-Providers contracted with Kentucky Medicaid are expected to provide access to care standards and processes for ongoing monitoring of access to health care by following certain medical appointments standard, such as urgent appointments within 48 hours and non-urgent appointments within 30 calendar days. The dataset includes urgent and non-urgent appointments provided by contracted primary care providers (PCP - adult and pediatrics) and OB/GYN.[1]
+Providers contracted with health plan are expected to provide access to care standards and processes for ongoing monitoring of access to health care by following certain medical appointments standard, such as urgent appointments within 48 hours and non-urgent appointments within 30 calendar days. The dataset includes urgent and non-urgent appointments provided by contracted primary care providers (PCP - adult and pediatrics) and OB/GYN.[1]
 
-The scope of this project is to identify providers that are compliant or not compliant based on their appointment availability and present analyzed data in graphs. The data file contains the providers' urgent and non-urgent appointment availability that are contracted with Kentucky Medicaid. The data was collected by the vendor through telephone survey and provided for the analysis.
+The scope of this project is to identify providers that are compliant or not compliant based on their appointment availability and present analyzed data in graphs. The data file contains the providers' urgent and non-urgent appointment availability that are contracted with a health plan. The data was collected by the vendor through telephone survey and provided for the analysis.
 
 Source:
 [1] https://www.molinahealthcare.com/providers/ky/medicaid/resource/access_avail.aspx
