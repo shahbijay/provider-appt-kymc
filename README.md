@@ -19,14 +19,14 @@ The data for this survey was generated using Python and does not contain any rea
 
 The survey file contains provider name, address, NPI, specialty, survey date/time, urgent appointment date/time, and non-urgent appointment date/time.
 The program file analyzes data in following order:
-1. First, Import the data into the program.
-2. Clean the Data using Pandas.
-3. Analyze the data:
+1. First, data is imported into the program.
+2. Then, data is cleaned using Pandas.
+3. Data is analyzed to answer the following:
 	- Days between survey and urgent appointment. If over 48 hours: Not compliant
 	- Days between survey and non-urgent appointment. If over 30 calendar days: Not complaint.
-	- Make sure days are not in negative value.
-	- Check if survey was completed on weekdays.
-4. Display analyzed data into the charts.
+	- Checks if days between the survey and appointments have any negative value.
+	- Checks if survey was completed on weekdays only.
+4. Analyzed data is displayed into the charts.
 	- Percent compliant and non-compliant
 	- By provider type/ by county
 
@@ -52,24 +52,25 @@ If you have a Google account, you can run this code without downloading any prog
     
 ## Option 2 - Cloning the repo.
 
-**Note:**
-- This repo runs on utilizing numbers of libraries that are included with Anaconda. If you do not have Anaconda already installed on your PC, please do so visiting this [link](https://docs.anaconda.com/anaconda/install/index.html) for documentaion on how to install Anaconda.
-- This repo runs on latest release of Anaconda. Follow this [instruction](https://docs.anaconda.com/anaconda/install/update-version/) to update Anaconda to latest version.
-
 **Running the Program in Jupyter Notebook**
-- Clone the repository.
-- Save the folder.
-- Open jupyter notebook from command line or start menu.
+- Clone the repository (git clone https://github.com/shahbijay/provider-appt-kymc).
+- Open the clonned repo (project folder) using Jupyter notebook.
 - Navigate to the saved location of the repo.
 - Open **script_provider-appt.ipynb**
 - Click **Cell** tab and then **Run All**.
 
-If you do not wish to install **Anaconda** on your machine and want to run this project locally on your machine or on a virtual environment, please install the requirements.txt by running this command: **pip install -r requirements.txt** in the project folder location or the virtaul environment. This will install necessary libraries to run this program.
-
-**Running the Program in Python**
-- Clone the repository
-- Save the folder.
-- Open the saved repository in your IDE or terminal.
-- Run the **script_provider-appt.ipynb** file.
-- Run **requirements.txt** to install necessary libraries to run this program.
+**Running the Program in PyCharm or other IDE that support Python**
+- Clone the repository (git clone https://github.com/shahbijay/provider-appt-kymc).
+- Navigate to the saved location of the repo.
+- Open the clonned repo (project folder) using PyCharm or any IDE that supports Python, such as ATOM, VS Code, Sublime Text 3, etc.
+- Open **script_provider-appt.ipynb**
 - Run program step by step.
+- If you are missing any packages or modules, run **pip install -r requirements.txt** to install missing packages or modules.
+
+**Instructions on Installing Anaconda or PyCharm**
+- This repo runs on utilizing numbers of libraries that are included with Anaconda. If you do not have Anaconda already installed on your PC, please do so visiting this [link](https://docs.anaconda.com/anaconda/install/index.html) for documentaion on how to install Anaconda.
+- This repo runs on latest release of Anaconda. Follow this [instruction](https://docs.anaconda.com/anaconda/install/update-version/) to update Anaconda to latest version.
+
+- Click [here](https://www.jetbrains.com/help/pycharm/installing-uninstalling-and-upgrading-packages.html) for instruction on how to install PyCharm.
+
+If you do not wish to install **Anaconda** or **PyCharm** on your machine and want to run this project locally on your machine or on a virtual environment, please install the requirements.txt by running this command: **pip install -r requirements.txt** in the project folder location or the virtaul environment. This will install necessary libraries to run this program.
