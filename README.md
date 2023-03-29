@@ -55,7 +55,6 @@ If you have a Google account, you can run this code without downloading any prog
 **Running the Program in Jupyter Notebook**
 - Clone the repository (git clone https://github.com/shahbijay/provider-appt-kymc).
 - Open the clonned repo (project folder) using Jupyter notebook.
-- Navigate to the saved location of the repo.
 - Open **script_provider-appt.ipynb**
 - Click **Cell** tab and then **Run All**.
 
